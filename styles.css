@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Center text in tables */
+.dataframe td, .dataframe th {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/* Add some padding and border to the table cells */
+.dataframe td, .dataframe th {
+    padding: 12px;
+    border: 1px solid #ddd;
+    color: black;
+}
+
+/* Style the table header */
+.dataframe thead th {
+    background-color: #007BFF;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Alternate row colors */
+.dataframe tr:nth-child(even) {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+/* Hover effect for rows */
+.dataframe tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Sidebar styles */
+.sidebar .sidebar-content {
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Title and section headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+}
+
+/* Page Title */
+h1 {
+    color: #007BFF;
+}
+
+/* Content Padding */
+main {
+    padding: 20px;
+}
+
+/* Score Display */
+.score-box {
+    padding: 20px;
+    color: white;
+    border-radius: 12px; /* Rounded corners for a modern look */
+    text-align: center;
+    font-size: 36px; /* Larger font size for better readability */
+    font-weight: bold;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* Larger shadow for a more pronounced effect */
+    border: 2px solid #000; /* Black border for contrast */
+}
+
+/* Add transition effect */
+.score-box {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover effect for score boxes */
+.score-box:hover {
+    transform: scale(1.05); /* Slightly enlarge the box on hover */
+}
+
+
+}
